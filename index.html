@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo-da-Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="number" id="jogador" placeholder="Quem começa: X(1) ou O(2)?">
+    <button onclick="Comecar()" id="comecar">Começar</button>
+    <main id="main">
+        <div class="principal">
+            <button class="quadrado" onclick="Jogar(1)" id="q1"></button>
+            <button class="quadrado" onclick="Jogar(2)" id="q2"></button>
+            <button class="quadrado" onclick="Jogar(3)" id="q3"></button>
+        </div>
+
+        <div class="principal">
+            <button class="quadrado" onclick="Jogar(4)" id="q4"></button>
+            <button class="quadrado" onclick="Jogar(5)" id="q5"></button>
+            <button class="quadrado" onclick="Jogar(6)" id="q6"></button>
+        </div>
+
+        <div class="principal">
+            <button class="quadrado" onclick="Jogar(7)" id="q7"></button>
+            <button class="quadrado" onclick="Jogar(8)" id="q8"></button>
+            <button class="quadrado" onclick="Jogar(9)" id="q9"></button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
