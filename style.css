@@ -84,4 +84,23 @@ div button {
     transform: translate(5px, 5px);
 }
 
-/*#jogador::placeholder {}*/
+.divPontos {
+    background-color: rgb(33, 104, 247);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.6);
+}
+
+#hPontosX {
+    position: absolute;
+    left: 90px;
+    top: 30px;
+}
+
+#hPontosO {
+    position: absolute;
+    right: 90px;
+    top: 30px;
+}
